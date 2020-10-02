@@ -5,18 +5,22 @@ ini_set("display_errors", "1");
 ini_set("display_startup_errors", "1");
 error_reporting(E_ALL);
 
-function new_exercise() {
+//1
+function new_exercise()
+{
     $x = 1;
     $block = "<br/><hr/><br/><br/>Exercise $x starts here:<br/>";
     echo $block;
 
 }
+
 new_exercise();
 
 // defined variable 1
 // echo $block
 // what I'm always doing wrong is call the function within the function shoul be outside see line 14
 
+//2
 $week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 $monday = $week[0];
 
@@ -24,7 +28,11 @@ echo $monday;
 
 //first element of array is 0 so if you want monday you should fill 0 in the array
 
+//3
+$str = 'Debugged! Also.very.fun';
+echo substr($str, 0, 10);
 
+//added some points space and single quotes
 
 
 
