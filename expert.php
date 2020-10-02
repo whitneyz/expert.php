@@ -18,9 +18,11 @@ new_exercise();
 // what I'm always doing wrong is call the function within the function shoul be outside see line 14
 
 $week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
-$monday = $week[1];
+$monday = $week[0];
 
 echo $monday;
+
+//first element of array is 0 so if you want monday you should fill 0 in the array
 
 
 
