@@ -29,10 +29,11 @@ echo $monday;
 //first element of array is 0 so if you want monday you should fill 0 in the array
 
 //3
-$str = 'Debugged! Also.very.fun';
-echo substr($str, 0, 10);
+//echo ` "Debugged !" `
+$str = '` "Debugged!"  ` . Also.very.fun';
+echo substr($str, 0, 16);
 
-//added some points space and single quotes
+//added some points, space and single quotes
 
 
 
