@@ -5,9 +5,22 @@ ini_set("display_errors", "1");
 ini_set("display_startup_errors", "1");
 error_reporting(E_ALL);
 
+function new_exercise() {
+    $x = 1;
+    $block = "<br/><hr/><br/><br/>Exercise $x starts here:<br/>";
+    echo $block;
 
+}
+new_exercise();
 
+// defined variable 1
+// echo $block
+// what I'm always doing wrong is call the function within the function shoul be outside see line 14
 
+$week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+$monday = $week[1];
+
+echo $monday;
 
 
 
