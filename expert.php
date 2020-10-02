@@ -46,6 +46,23 @@ foreach($week as &$day) {
 
 print_r($week);
 
+// have added & see example foreach below
+/*$arr = array(1, 2, 3, 4);
+foreach ($arr as &$value) {
+    $value = $value * 2;
+}*/
+
+//new_exercise(5);
+// === Exercise 5 ===
+// The array should be printing every letter of the alfabet (a-z) but instead it does that + aa-yz
+// Fix the code so the for loop only pushes a-z in the array
+
+$arr = [];
+for ($letter = 'a'; $letter < 'z'; $letter++) {
+    array_push($arr, $letter);
+}
+
+print_r($arr); // Array ([0] => a, [1] => b, [2] => c, ...) a-z alfabetical array
 
 
 /* print_r() displays information about a variable in a way that's readable by humans.
